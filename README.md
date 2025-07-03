@@ -41,14 +41,19 @@ Below is a tested combination of library versions that are compatible. Start her
 Download the ShapeNet-Part using their [website](https://shapenet.org/)
 
 # Run through the provided autoencoder training/testing script:
+
 `CDM_Unguided/train_ae.py` will produce model checkpoints located in `CDM_Unguided/logs_ae/<Object>_<idx>_AE_<Date-Time>/checkpoint_X_X.pth`
+
 `CDM_Guided/train_ae.py` will produce model checkpoints located in `CDM_Guided/logs_ae/<Object>_<idx>_AE_<Date-Time>/checkpoint_X_X.pth`
 
 # Run through the provided generation training script:
+
 `CDM_Guided/train_gen.py` will produce model checkpoints located in `CDM_Guided/logs_gen/<Object>_<idx>_AE_<Date-Time>/checkpoint_X_X.pth`
+
 `CDM_Guided/train_gen.py` will produce model checkpoints located in `CDM_Guided/logs_gen/<Object>_<idx>_AE_<Date-Time>/checkpoint_X_X.pth`
 
 For visualizing the snapshots, open up a tensorboard session located in the logs_ae / logs_gen folder. 
+
 These contain numeric metrics & pointcloud visualizations.
 
 # Results
