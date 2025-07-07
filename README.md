@@ -95,7 +95,10 @@ The best scores between the unguided and guided models are highlighted in **bold
 
 
 # Supplementary Materials
+
+
 **Detailed comparison of point cloud generation performance for different data splits.**
+
 JSD, COV, and 1-NNA are multiplied by 10², while MMD is multiplied by 10³.
 The best scores between data splits are highlighted in bold.
 (↑: higher is better, ↓: lower is better)
